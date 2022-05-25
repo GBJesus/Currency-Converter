@@ -1,7 +1,7 @@
 # Conversor de Moedas
 
 
-<img src="./assets/currency-converter.png" alt="imagem-do-projeto">
+<img src="./assets/currency-converter.png" width="300px" alt="imagem-do-projeto">
 
 > Resultado do Projeto Conversor de Moedas.
 
