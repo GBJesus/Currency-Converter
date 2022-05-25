@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  position: relative;
+  width: 375px;
+  height: 766px;
+
+  background: #F4F4F4;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+  height: 66px;
+
+  background: #1B83E2;
+}
+
+h1 {
+
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 18px;
+  color: #F4F4F4;
+}
+
+main {
+  padding: 24px;
+}
+
+.labels {
+  display: block;
+  margin: 0 0 10px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #777777;
+}
+
+.select {
+  margin-bottom: 23px;
+  padding-left: 16px;
+  display: block;
+  width: 100%;
+  height: 48px;
+
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  border-radius: 4px;
+  appearance: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #555555;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+#convert-button {
+  width: 100%;
+  height: 48px;
+  display: block;
+  margin: 0 auto 36px;
+
+  background: #1B83E2;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #F4F4F4;
+  cursor: pointer;
+}
+
+.convert-button:hover {
+  opacity: 0.9;
+}
+
+.conversion-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  width: 327px;
+  height: 276px;
+
+
+  border: 1px solid #1B83E2;
+  border-radius: 4px;
+}
+
+.currency-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.image-coin {
+  width: 44px;
+  height: 44px;
+ 
+}
+
+h3 {
+  margin-bottom: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #777777;
+}
+
+h2 {
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+
+  color: #1B83E2;
+}
+
+.image-arrow {
+
+}

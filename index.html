@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>CodeClub Convert Money</title>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <header>
+      <h1>CodeClub Convert Money</h1>
+    </header>
+
+    <main>
+      <label class="labels">
+        Converter <b>de</b>
+        <select class="select" name="select-one" id="select-one">
+          <option class="options">
+            R$ Real Brasileiro
+          </option>
+        </select>
+      </label>
+
+      <label class="labels">
+        Converter <b>para</b>
+        <select id="select" class="select" name="select-one" id="select-one">
+          <option class="options">
+            US$ Dólar Americano
+          </option>
+          <option>
+            € Euro
+          </option>
+          <option>
+            Bitcoin
+          </option>
+        </select>
+      </label>
+
+      <label class="labels">
+        Valor
+        <input id="input" class="select" placeholder="Digite o valor">
+      </label>
+
+      <button id="convert-button" type="button">Converter</button>
+
+      <section class="conversion-field">
+        <div class="currency-container">
+          <img class="image-coin" src="./assets/brasil.png" alt="Brasil">
+          <h3>Real</h3>
+          <h2 id="original-value">R$ 10.000,00</h2>
+        </div>
+
+        <img class="image-arrow" src="./assets/Vector.png" alt="seta">
+
+        <div class="currency-container">
+          <img id="coin-img" class="image-coin" src="./assets/estados-unidos.png" alt="estados-unidos">
+          <h3 id="coin-name">Dólar Americano</h3>
+          <h2 id="converted-value" >US$ 2.000,00</h2>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
